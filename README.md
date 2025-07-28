@@ -9,7 +9,6 @@ A sophisticated color detection application that identifies colors in images wit
 - **Multiple algorithms**: Support for HSV, Euclidean, and Manhattan distance methods
 - **Confidence scoring**: Shows how confident the color match is
 - **866 named colors**: Comprehensive color database
-- **Video processing**: Real-time color detection in video files
 
 ### 🖱️ **Enhanced User Interface**
 - **Interactive display**: Double-click anywhere to detect colors
@@ -46,27 +45,12 @@ python improved_color_detection.py -i colorpic.jpg
 
 # Use a custom color database
 python improved_color_detection.py -i image.jpg -d custom_colors.csv
-
-# Process video files
-python video_color_detection.py -v your_video.mp4
-
-# Process video with custom database
-python video_color_detection.py -v demo.mp4 -d colors.csv
 ```
 
 ### Controls
-
-**For Images (`improved_color_detection.py`):**
 - **Double-click**: Detect color at cursor position
 - **'h' key**: Cycle through matching methods (HSV → Euclidean → Manhattan)
 - **'r' key**: Reset display
-- **'ESC' key**: Quit application
-
-**For Videos (`video_color_detection.py`):**
-- **Double-click**: Detect color at cursor position
-- **'h' key**: Cycle through matching methods (HSV → Euclidean → Manhattan)
-- **'SPACE' key**: Pause/resume video
-- **'r' key**: Reset color detection
 - **'ESC' key**: Quit application
 
 ## Color Matching Methods
@@ -89,7 +73,6 @@ python video_color_detection.py -v demo.mp4 -d colors.csv
 ```
 Color-Detection/
 ├── improved_color_detection.py  # Main application (images)
-├── video_color_detection.py     # Video processing application
 ├── color_detection.py           # Original basic version
 ├── colors.csv                   # Color database (866 colors)
 ├── colorpic.jpg                 # Sample image

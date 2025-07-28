@@ -130,13 +130,4 @@ dmypy.json
 
 # Personal files (add your own files here)
 me.jpg
-*.personal
-
-# Video files (uncomment if you don't want to track large video files)
-# *.mp4
-# *.avi
-# *.mov
-# *.mkv
-# *.wmv
-# *.flv
-# *.webm 
+*.personal 
